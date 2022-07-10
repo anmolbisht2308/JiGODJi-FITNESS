@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-scroll";
 import Header from "../Header/Header";
 import "./Hero.css";
-import hero_image from "../../assets/hero_image.png";
+import hero_image1 from "../../assets/hero_image1.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import heart from "../../assets/heart.png";
 import calories from "../../assets/calories.png";
@@ -70,7 +70,7 @@ const Hero = () => {
                     <span>Heart Rate</span>
                     <span>115 bpm</span>
                 </motion.div>
-                <img src={hero_image} alt="" className="hero-image" />
+                <img src={hero_image1} alt="" className="hero-image" />
                 <motion.img
                     initial={{right: "11rem"}}
                     whileInView={{right: "20rem"}}
